@@ -2,10 +2,10 @@
 
 int main(void)
 {
-    int counter = 3;
-    while (counter > 0)
+    int i = 0;
+    while (i < 3)
     {
         printf("meow\n");
-        counter--;
+        i++;
     }
 }
